@@ -222,7 +222,8 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
-    /*translateshalfofit's height to the top and half of it'swidthtotheleft*/transform: translate(-50%, -50%);
+    /*translateshalfofit's height to the top and half of it'swidthtotheleft*/
+    transform: translate(-50%, -50%);
 
     /* Older browsers */
     -webkit-transform: translate(-50%, -50%);
@@ -258,6 +259,7 @@ header {
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.7s;
+
     /*Olderbrowsers*/
     -moz-transition: border-bottom 0.7s;
     -ms-transition: border-bottom 0.7s;
@@ -310,6 +312,7 @@ header {
     height: auto;
     transform: scale(1.15);
     transition: transform .7s, opacity .7s;
+
     /*Olderbrowsers*/
     -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
@@ -332,6 +335,7 @@ header {
     -moz-transform: scale(1.03);
     -ms-transform: scale(1.03);
     -o-transform: scale(1.03);
+
 }
 
 /* --------------------------------------------------------*/
@@ -342,71 +346,46 @@ header {
     background-color: rgb(230, 230, 230);
 }
 
-
-
 .steps-box {
-    position: relative;
-    max-height: inherit;
+    margin-top: 30px;
 }
+
 
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
-    max-height: inherit;
 }
-
-.works-step:nth-child(2) {
-   position: absolute;
-   margin-left: 6%;
-   left: 0;
-   top: 170%;
-   max-height: inherit;
-}
-
-.works-step:nth-child(3) {
-    position: absolute;
-    top: 340%;
-    bottom: 0;  
-    max-height: inherit;
- }
 
 .steps-box:last-child {
+    text-align: left;
     padding-left: 3%;
     margin-top: 70px;
 }
 
 .app-screen {
     width: 40%;
-    max-height: inherit;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
 }
 
 .works-step div {
     color: #e67e22;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
     border: 2px solid #e67e22;
     border-radius: 50%;
-    height: 55px;
-    width: 55px;
+    display: inline-block;
     text-align: center;
-    padding: 5px;
-    font-size: 150%;
+    margin-right: 25px;
     float: left;
-    /*position: absolute;
-    *//*left: -20px;
-    */margin-right: 30px;
-    max-height: inherit;
-
-    /* Older browsers */
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-.btn-app-container {
-   position: absolute;
-   top: 450%;
-   margin-top: 30px;
+    padding: 5px;
 }
 
 .btn-app:link,
@@ -417,9 +396,10 @@ header {
 .btn-app img {
     height: 50px;
     width: auto;
-    margin-top: 50px;
     margin-right: 10px;
 }
+
+
 
 /* --------------------------------------------------------*/
 /* CITIES*/
