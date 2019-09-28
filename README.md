@@ -4,13 +4,21 @@
 
 # Developer
 
-[x] This app was developed by: DarTecc ~ Daryl Magera.
+[x] This app was developed by: DarTec ~ Daryl Magera.
 
-# Technologies used to birth this app
+# Main technologies used to birth this app
 
 [x] HTML5
 
 [x] CSS3
 
 [x] JQUERY
+
+# Other technologies and plugins used
+
+[x] waypoint
+
+[x] animate.css
+
+[x] optimizillia (used for reducing the size of the background images to improve speed)
 
