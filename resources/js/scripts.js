@@ -70,24 +70,24 @@ $(document).ready(function (){
     });
 
     //* Mobile Navigation *//
+    
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
         nav.slideToggle(200);
         var icon = $('.js--nav-icon i');
 
-        if(icon.hasClass('ion-ios-menu')){
 
+        if(icon.hasClass('ion-ios-menu')){
+        
             icon.addClass('ion-ios-close');
             icon.removeClass('ion-ios-menu');
-
+            
         } else {
-
+            
             icon.addClass('ion-ios-menu');
             icon.removeClass('ion-ios-close');
         }
+
     });
 
-
 });
-
-{/* <i class="icon ion-ios-close"></i> */}
