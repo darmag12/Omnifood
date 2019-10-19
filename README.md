@@ -4,7 +4,7 @@
 
 # Developer
 
-[x] This app was developed by: DarTec ~ Daryl Magera.
+[x] This app was developed by: Dartechx ~ Daryl Magera.
 
 # Main technologies used to birth this app
 
